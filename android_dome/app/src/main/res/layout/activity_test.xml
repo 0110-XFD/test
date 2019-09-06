@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bstzctivity">
+
+    <include
+        android:id="@+id/testtitle"
+        layout="@layout/testtitle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="510dp">
+
+        <FrameLayout
+            android:id="@+id/testcontent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#FFFAFA" />
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/uptestquestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/xz"
+            android:text="上一题" />
+
+        <Button
+            android:id="@+id/downtestquesiton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:background="@color/xz"
+            android:text="下一题" />
+        <Button
+            android:id="@+id/commit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:background="@color/xz"
+            android:text="交卷"
+            android:visibility="invisible"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

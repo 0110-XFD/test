@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/questionnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+    <RadioButton
+    android:id="@+id/answerAnew"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+    <RadioButton
+    android:id="@+id/answerBnew"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <RadioButton
+        android:id="@+id/answerCnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp" />
+    <RadioButton
+    android:id="@+id/answerDnew"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/fgx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="-------------试题详解-------------"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/expl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

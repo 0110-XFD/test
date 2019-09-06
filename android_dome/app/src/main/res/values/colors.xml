@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="xz">#2196f3</color>
+    <color name="mr">#FFFFFF</color>
+    <color name="title">#D1EEEE</color>
+    <color name="tubiao">#1E90FF</color>
+    <color name="ziti">#8A8A8A</color>
+    <color name="hs">#AAAAAA</color>
+    <color name="error">#FF3030</color>
+    <color name="right">#1E90FF</color>
+    <color name="black">#000000</color>
+</resources>
